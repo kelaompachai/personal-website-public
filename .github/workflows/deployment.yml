@@ -1,0 +1,45 @@
+# hello
+name: deployment
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: check out repository
+        uses: actions/checkout@v4
+
+      - name: use node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.x
+          cache: 'npm'
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v3
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          role-session-name: personal-website-continuous-delivery
+          aws-region: ${{ secrets.AWS_REGION }}
+      
+      - name: use deploy action
+        uses: ./.github/actions/deploy
+        with:
+          bucket: ${{ secrets.AWS_BUCKET }}
+
+      - name: use invalidate action
+        uses: ./.github/actions/invalidate
+        with:
+          distribution: ${{ secrets.AWS_DISTRIBUTION }}

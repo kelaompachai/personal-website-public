@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section component renders properly looks good as Intro 1`] = `
+<body>
+  <div>
+    <section
+      class="min-h-12 border-2 border-black border-solid flex flex-col rounded-3xl mx-32 my-5"
+    >
+      <div
+        class="flex justify-center mb-5"
+      />
+      <div
+        class="flex text-lg font-light"
+      >
+        <img
+          alt="My beautiful face"
+          class="rounded-full mx-7 object-contain size-36"
+          src="testFileStub"
+        />
+        <p
+          class="mx-7"
+        >
+          Hi, I'm Joe Paul, a software engineer who's passionate about what's true. I enjoy building websites (front and back end), solving leetcode problems, reading classics, and hiking. I'm currently working on this website, learning Java, and reading Aristotle's Topics. Feel free to email me if you'd like to talk about any of those things.
+        </p>
+        <div
+          class="flex flex-col items-center"
+        >
+          <span>
+            JosephLPaul@proton.me
+          </span>
+          <a
+            class="text-well-read-400 underline"
+            href="https://www.github.com/kelaompachai"
+          >
+            Github Link
+          </a>
+          <a
+            class="text-well-read-400 underline"
+            href="https://www.linkedin.com/in/joseph-lawrence-paul"
+          >
+            LinkedIn Link
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+`;
+
+exports[`Section component renders properly looks good as something else 1`] = `
+<body>
+  <div>
+    <section
+      class="min-h-12 border-2 border-black border-solid flex flex-col rounded-3xl mx-32 my-5"
+    >
+      <div
+        class="flex justify-center mb-5"
+      >
+        <h3
+          class="text-center text-2xl py-5 bg bg-well-read-400 rounded-3xl w-1/2"
+        >
+          Open Source Projects
+        </h3>
+      </div>
+      <div
+        class="grid grid-cols-2 gap-4"
+      >
+        <div
+          class="flex flex-col items-center"
+        >
+          <h1
+            class="text-4xl text-wrap text-white max-w-96 text-center font-extralight"
+          >
+            The Floor Plan
+          </h1>
+          <div
+            class="min-h-72 flex justify-around mt-5"
+          >
+            <a
+              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-floorPlan hover:opacity-80 active:transform active:translate-y-0.5"
+              href="https://github.com/kelaompachai/The-Floor-Plan"
+            />
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center"
+        >
+          <h1
+            class="text-4xl text-wrap text-white max-w-96 text-center font-extralight"
+          >
+            Pass the Plate
+          </h1>
+          <div
+            class="min-h-72 flex justify-around mt-5"
+          >
+            <a
+              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-passThePlate hover:opacity-80 active:transform active:translate-y-0.5"
+              href="https://github.com/kelaompachai/Pass-the-Plate"
+            />
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center"
+        >
+          <h1
+            class="text-4xl text-wrap text-white max-w-96 text-center font-extralight"
+          >
+            KafOpticon
+          </h1>
+          <div
+            class="min-h-72 flex justify-around mt-5"
+          >
+            <a
+              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-KafOpticon hover:opacity-80 active:transform active:translate-y-0.5"
+              href="https://github.com/kelaompachai/KafOpticon"
+            />
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center"
+        >
+          <h1
+            class="text-4xl text-wrap text-white max-w-96 text-center font-extralight"
+          >
+            AlgoGoggles
+          </h1>
+          <div
+            class="min-h-72 flex justify-around mt-5"
+          >
+            <a
+              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-algogoggles hover:opacity-80 active:transform active:translate-y-0.5"
+              href="https://github.com/kelaompachai/AlgoGoggles"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+`;

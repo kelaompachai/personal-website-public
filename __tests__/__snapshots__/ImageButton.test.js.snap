@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`looks like my image button 1`] = `
+<body>
+  <div>
+    <div
+      class="flex flex-col items-center"
+    >
+      <h1
+        class="text-4xl text-wrap text-white max-w-96 text-center font-extralight"
+      >
+        testTitle
+      </h1>
+      <div
+        class="min-h-72 flex justify-around mt-5"
+      >
+        <a
+          class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover testImage hover:opacity-80 active:transform active:translate-y-0.5"
+          href="testLink"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

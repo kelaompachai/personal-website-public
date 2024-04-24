@@ -1,0 +1,9 @@
+name: deploy
+description: erase the contents s3 bucket containing the website and rewrite the dist folder to it
+inputs:
+  bucket:
+    description: the bucket to deploy to
+    required: true
+runs:
+  using: node20
+  main: index.js

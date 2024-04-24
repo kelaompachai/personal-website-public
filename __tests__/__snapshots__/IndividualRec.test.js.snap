@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndividualRec renders properly looks good 1`] = `
+<body>
+  <div>
+    <div
+      class="flex justify-center items-center min-h-72 my-2.5"
+    >
+      <div
+        class="h-[26rem] flex flex-col max-w-xl bg-well-read-200 rounded-3xl"
+      >
+        <div
+          class="flex items-center justify-center"
+        >
+          <div
+            class="cheese flex-grow-0 mx-5 text-gray-800 font-medium"
+          >
+            Chesterton
+          </div>
+          <div
+            class="cheese flex-grow-0 mx-5 text-gray-800 font-light"
+          >
+            brother
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-center flex-grow"
+        >
+          <p
+            class="cheese p-5 text-center text-gray-600 font-light"
+          >
+            I am a huge fan of Joe.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recs component renders properly matches snapshot and changes content when the button is pushed 1`] = `
+<body>
+  <div>
+    <div
+      class="flex items-center justify-around"
+    >
+      <button
+        class="flex justify-center items-center size-24 border-2 border-well-read-500 rounded-3xl bg-well-read-200 hover:bg-well-read-300 active:transform active:translate-y-0.5"
+        type="button"
+      >
+        <svg
+          class="size-1/2 fill-well-read-500"
+          viewBox="0 0 16 16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      <div
+        class="flex items-center justify-center"
+      >
+        <div
+          class="flex justify-center items-center min-h-72 my-2.5"
+        >
+          <div
+            class="h-[26rem] flex flex-col max-w-xl bg-well-read-200 rounded-3xl"
+          >
+            <div
+              class="flex items-center justify-center"
+            >
+              <div
+                class="cheese flex-grow-0 mx-5 text-gray-800 font-medium"
+              >
+                Andrew Cirt
+              </div>
+              <div
+                class="cheese flex-grow-0 mx-5 text-gray-800 font-light"
+              >
+                Colleague at KafOpticon
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-center flex-grow"
+            >
+              <p
+                class="cheese p-5 text-center text-gray-600 font-light"
+              >
+                Joe was a great asset to our team, both from a technical and non-technical perspective. Whether he was making quick and significant progress on his tasks or helping others make progress on theirs, Joe was always willing to help and go the extra mile. Joe provided valuable insight into solving problems and bugs and also communicated with others about solutions. Joe has been great to work with and I'm sure he will continue to be so for others.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="flex justify-center items-center size-24 border-2 border-well-read-500 rounded-3xl bg-well-read-200 hover:bg-well-read-300 active:transform active:translate-y-0.5"
+        type="button"
+      >
+        <svg
+          class="size-1/2 fill-well-read-500"
+          viewBox="0 0 16 16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,9 @@
+name: invalidate
+description: invalidate the cloudfront distribution that serves the website
+inputs:
+  distribution:
+    description: the cloudfront distribution to invalidate
+    required: true
+runs:
+  using: node20
+  main: index.js
