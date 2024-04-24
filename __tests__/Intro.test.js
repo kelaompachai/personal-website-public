@@ -2,7 +2,9 @@ import { render, screen } from '@testing-library/react';
 import Intro from '../src/view/Intro';
 
 it('looks like my Intro component', () => {
-  render(<Intro />);
+  const container = render(<Intro />);
+  expect(container.baseElement).toMatchSnapshot();
+
 
   const image = screen.getByRole('img');
 

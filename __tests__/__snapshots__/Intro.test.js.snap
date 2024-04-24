@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`looks like my Intro component 1`] = `
+<body>
+  <div>
+    <div
+      class="flex text-lg font-light"
+    >
+      <img
+        alt="My beautiful face"
+        class="rounded-full mx-7 object-contain size-36"
+        src="testFileStub"
+      />
+      <p
+        class="mx-7"
+      >
+        Hi, I'm Joe Paul, a software engineer who's passionate about what's true. I enjoy building websites (front and back end), solving leetcode problems, reading classics, and hiking. I'm currently working on this website, learning Java, and reading Aristotle's Topics. Feel free to email me if you'd like to talk about any of those things.
+      </p>
+      <div
+        class="flex flex-col items-center"
+      >
+        <span>
+          JosephLPaul@proton.me
+        </span>
+        <a
+          class="text-well-read-400 underline"
+          href="https://www.github.com/kelaompachai"
+        >
+          Github Link
+        </a>
+        <a
+          class="text-well-read-400 underline"
+          href="https://www.linkedin.com/in/joseph-lawrence-paul"
+        >
+          LinkedIn Link
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+`;
