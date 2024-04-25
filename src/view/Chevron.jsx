@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Chevron(props) {
+  // component for image inside button
   const { direction } = props;
 
   return direction === 'right' ? (
