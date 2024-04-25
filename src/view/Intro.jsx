@@ -10,7 +10,7 @@ function Intro() {
       <div className="flex flex-col items-center">
         <span>JosephLPaul@proton.me</span>
         <a className="text-well-read-400 underline" href="https://www.github.com/kelaompachai">Github</a>
-        <a className="text-well-read-400 underline" href="https://www.linkedin.com/in/joseph-lawrence-paul">LinkedInLink</a>
+        <a className="text-well-read-400 underline" href="https://www.linkedin.com/in/joseph-lawrence-paul">LinkedIn</a>
       </div>
     </div>
   );
