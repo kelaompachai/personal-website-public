@@ -26,13 +26,13 @@ exports[`looks like my Intro component 1`] = `
           class="text-well-read-400 underline"
           href="https://www.github.com/kelaompachai"
         >
-          Github
+          Github Link
         </a>
         <a
           class="text-well-read-400 underline"
           href="https://www.linkedin.com/in/joseph-lawrence-paul"
         >
-          LinkedIn
+          LinkedIn Link
         </a>
       </div>
     </div>
