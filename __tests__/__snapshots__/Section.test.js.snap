@@ -20,7 +20,7 @@ exports[`Section component renders properly looks good as Intro 1`] = `
         <p
           class="mx-7"
         >
-          Hi, I'm Joe Paul, a software engineer who's passionate about what's true. I enjoy building websites (front and back end), solving leetcode problems, reading classics, and hiking. I'm currently working on building a SQL database with an accompanying UI, learning AWS, and reading Eliot's Daniel Deronda. Feel free to email me if you'd like to talk about any of those things.
+          Hi, I'm Joe Paul, a software engineer who's passionate about what's true. I enjoy building websites (front and back end), solving leetcode problems, reading classics, and hiking. I'm currently working on building a SQL database with an accompanying UI, learning AWS, and reading Frost's early poetry. Feel free to email me if you'd like to talk about any of those things.
         </p>
         <div
           class="flex flex-col items-center"
