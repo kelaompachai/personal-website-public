@@ -7,7 +7,7 @@ exports[`Recs component renders properly matches snapshot and changes content wh
       class="flex items-center justify-around"
     >
       <button
-        class="flex justify-center items-center size-24 border-2 border-well-read-500 rounded-3xl bg-well-read-200 hover:bg-well-read-300 active:transform active:translate-y-0.5"
+        class="flex justify-center items-center size-24 border-2 border-well-read-500 rounded-3xl bg-well-read-200 hover:bg-well-read-300 active:transform active:translate-y-0.5 cursor-pointer"
         type="button"
       >
         <svg
@@ -57,7 +57,7 @@ exports[`Recs component renders properly matches snapshot and changes content wh
         </div>
       </div>
       <button
-        class="flex justify-center items-center size-24 border-2 border-well-read-500 rounded-3xl bg-well-read-200 hover:bg-well-read-300 active:transform active:translate-y-0.5"
+        class="flex justify-center items-center size-24 border-2 border-well-read-500 rounded-3xl bg-well-read-200 hover:bg-well-read-300 active:transform active:translate-y-0.5 cursor-pointer"
         type="button"
       >
         <svg
