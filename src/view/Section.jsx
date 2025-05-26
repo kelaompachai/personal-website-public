@@ -1,7 +1,6 @@
 import React from 'react';
 import Intro from './Intro';
 import Projects from './Projects';
-import Reach from './Reach';
 import Recs from './Recs';
 import Talks from './Talks';
 
@@ -10,8 +9,7 @@ function Section(props) {
   const fill = title === 'Intro'
     ? <Intro /> : title === 'Open Source Projects'
       ? <Projects /> : title === 'Talks & Publications'
-        ? <Talks /> : title === 'Recommendations'
-          ? <Recs /> : <Reach />;
+        ? <Talks /> : <Recs />;
 
   return (
     <section className="min-h-12 border-2 border-black border-solid flex flex-col rounded-3xl mx-32 my-5">
