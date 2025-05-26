@@ -30,7 +30,18 @@ const webpackOptions = (env, argv) => {
         {
           test: /\.css$/,
           exclude: /node_modules/,
-          use: ['style-loader', 'css-loader', 'postcss-loader']
+          use: ['style-loader', 'css-loader', {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: [
+                  [
+                    '@tailwindcss/postcss'
+                  ]
+                ]
+              }
+            }
+          }]
         },
         {
           test: /\.(png|jpg)/,

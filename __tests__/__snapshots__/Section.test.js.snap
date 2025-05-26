@@ -77,7 +77,7 @@ exports[`Section component renders properly looks good as something else 1`] = `
             class="min-h-72 flex justify-around mt-5"
           >
             <a
-              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-floorPlan hover:opacity-80 active:transform active:translate-y-0.5"
+              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-floorplan hover:opacity-80 active:transform active:translate-y-0.5"
               href="https://github.com/kelaompachai/The-Floor-Plan"
             />
           </div>
@@ -94,7 +94,7 @@ exports[`Section component renders properly looks good as something else 1`] = `
             class="min-h-72 flex justify-around mt-5"
           >
             <a
-              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-passThePlate hover:opacity-80 active:transform active:translate-y-0.5"
+              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-passtheplate hover:opacity-80 active:transform active:translate-y-0.5"
               href="https://github.com/kelaompachai/Pass-the-Plate"
             />
           </div>
@@ -111,7 +111,7 @@ exports[`Section component renders properly looks good as something else 1`] = `
             class="min-h-72 flex justify-around mt-5"
           >
             <a
-              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-KafOpticon hover:opacity-80 active:transform active:translate-y-0.5"
+              class="flex justify-center items-center h-64 w-96 rounded-3xl bg-center bg-no-repeat bg-cover bg-kafopticon hover:opacity-80 active:transform active:translate-y-0.5"
               href="https://github.com/kelaompachai/KafOpticon"
             />
           </div>

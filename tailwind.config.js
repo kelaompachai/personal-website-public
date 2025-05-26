@@ -5,11 +5,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
+        kafopticon: 'url(/assets/KafOpticon-pic.jpg)',
         algogoggles: 'url(/assets/algogoggles-pic.jpg)',
-        KafOpticon: 'url(/assets/KafOpticon-pic.jpg)',
-        floorPlan: 'url(/assets/floor-plan-pic.jpg)',
-        passThePlate: 'url(/assets/pass-the-plate-pic.jpg)',
-        techTalk: 'url(/assets/tech-talk.jpg)'
+        floorplan: 'url(/assets/floor-plan-pic.jpg)',
+        passtheplate: 'url(/assets/pass-the-plate-pic.jpg)',
+        techtalk: 'url(/assets/tech-talk.jpg)'
       },
       colors: {
         'well-read': {
