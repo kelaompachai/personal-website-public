@@ -8,7 +8,7 @@ function Intro() {
       <img className="rounded-full mx-7 object-contain size-36" src={profilePhoto} alt="My beautiful face"></img>
       <p className="mx-7">{text}</p>
       <div className="flex flex-col items-center">
-        <span>JosephLPaul@proton.me</span>
+        <span>jobs.alarm618@passinbox.com</span>
         <a className="text-well-read-400 underline" href="https://www.github.com/kelaompachai">Github</a>
         <a className="text-well-read-400 underline" href="https://www.linkedin.com/in/joseph-lawrence-paul">LinkedIn</a>
       </div>
