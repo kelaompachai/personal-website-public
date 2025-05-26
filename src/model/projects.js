@@ -7,9 +7,9 @@ class Project {
 }
 
 const projectsList = [
-  new Project('The Floor Plan', 'https://github.com/kelaompachai/The-Floor-Plan', "bg-floorPlan"),
-  new Project('Pass the Plate', 'https://github.com/kelaompachai/Pass-the-Plate', "bg-passThePlate"),
-  new Project('KafOpticon', 'https://github.com/kelaompachai/KafOpticon', "bg-KafOpticon"),
+  new Project('The Floor Plan', 'https://github.com/kelaompachai/The-Floor-Plan', "bg-floorplan"),
+  new Project('Pass the Plate', 'https://github.com/kelaompachai/Pass-the-Plate', "bg-passtheplate"),
+  new Project('KafOpticon', 'https://github.com/kelaompachai/KafOpticon', "bg-kafopticon"),
   new Project('AlgoGoggles', 'https://github.com/kelaompachai/AlgoGoggles', "bg-algogoggles")
 ];
 

@@ -1,6 +1,33 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-well-read-50: oklch(97.19% 0.01 17.34);
+  --color-well-read-100: oklch(93.96% 0.02 17.59);
+  --color-well-read-200: oklch(89.07% 0.05 16.46);
+  --color-well-read-300: oklch(81.50% 0.08 18.11);
+  --color-well-read-400: oklch(71.51% 0.13 19.85);
+  --color-well-read-500: oklch(63.10% 0.17 22.72);
+  --color-well-read-600: oklch(56.21% 0.18 24.79);
+  --color-well-read-700: oklch(51.92% 0.17 25.07);
+  --color-well-read-800: oklch(43.39% 0.14 24.46);
+  --color-well-read-900: oklch(39.11% 0.11 23.22);
+  --color-well-read-950: oklch(25.41% 0.08 23.25);
+
+  --background-image-kafopticon: url(/assets/KafOpticon-pic.jpg);
+  --background-image-algogoggles: url(/assets/algogoggles-pic.jpg);
+  --background-image-floorplan: url(/assets/floor-plan-pic.jpg);
+  --background-image-passtheplate: url(/assets/pass-the-plate-pic.jpg);
+  --background-image-techtalk: url(/assets/tech-talk.jpg);
+
+  --animate-blurin: blurin 1s ease-in-out 1;
+
+  @keyframes blurin {
+    0% {
+      color: transparent;
+    }
+    100% {}
+  }
+}
 
 body {
   background-color: black;
