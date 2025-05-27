@@ -28,7 +28,7 @@ function Recs() {
   }
 
   return (
-    <div className="flex items-center justify-around" >
+    <div className="flex items-center justify-around">
       <CarouselButton direction="left" carousel={() => { carousel('left'); }} />
       <div className="flex items-center justify-center">
         {recsArray[showing]}

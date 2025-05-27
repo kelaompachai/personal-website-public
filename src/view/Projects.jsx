@@ -5,7 +5,7 @@ import ImageButton from './ImageButton';
 function Projects() {
   // for every project, make a clickable square screenshot with a title above it
   const projectsComponents = projectsList.map(
-    (el, index) => <ImageButton title={el.title} link={el.link} image={el.image} key={`Project ${index}`}/>
+    (el, index) => <ImageButton title={el.title} link={el.link} image={el.image} key={`Project ${index}`} />
   );
 
   return (

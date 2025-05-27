@@ -13,7 +13,7 @@ const webpackOptions = (env, argv) => {
     output: {
       path: path.join(__dirname, 'dist'),
       filename: 'bundle.js',
-      clean: true,
+      clean: true
     },
     module: {
       rules: [

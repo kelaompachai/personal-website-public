@@ -1,3 +1,3 @@
-const cheese = 'testFileStub'
+const cheese = 'testFileStub';
 
 export default cheese;
