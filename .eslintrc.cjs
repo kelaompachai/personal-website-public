@@ -9,7 +9,7 @@ module.exports = {
     {
       env: {
         node: true,
-        "jest/globals": true
+        'jest/globals': true
       },
       files: [
         '.eslintrc.{js,cjs}'
@@ -23,6 +23,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
+  plugins: ['jest'],
   rules: {
     'no-console': 'off',
     'no-multiple-empty-lines': ['error', { max: 2 }],
