@@ -1,7 +1,5 @@
 @import 'tailwindcss';
 
-@config '../tailwind.config.js';
-
 @theme {
   --color-well-read-50: oklch(97.19% 0.01 17.34);
   --color-well-read-100: oklch(93.96% 0.02 17.59);
@@ -20,6 +18,15 @@
   --background-image-floorplan: url(/assets/floor-plan-pic.jpg);
   --background-image-passtheplate: url(/assets/pass-the-plate-pic.jpg);
   --background-image-techtalk: url(/assets/tech-talk.jpg);
+
+  --animate-blurin: blurin 1s ease-in-out 1;
+
+  @keyframes blurin {
+    0% {
+      color: transparent;
+    }
+    100% {}
+  }
 }
 
 body {
