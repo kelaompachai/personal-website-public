@@ -1,3 +1,4 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Intro from '../src/view/Intro';
 
@@ -16,10 +17,10 @@ it('looks like my Intro component', () => {
   expect(screen.queryByText(/Hi, I'm Joe Paul/)).toBeInTheDocument();
 
   // checking that my email is present
-  expect(screen.queryByText(/jobs.alarm618@passinbox.com/i)).toBeInTheDocument();  
+  expect(screen.queryByText(/jobs.alarm618@passinbox.com/i)).toBeInTheDocument();
 
   // checking for github and linkedin
-  const github = screen.queryByText(/Github/)
+  const github = screen.queryByText(/Github/);
   expect(github).toBeInTheDocument();
   expect(github).toHaveRole('link');
   expect(github).toHaveAttribute('href', 'https://www.github.com/kelaompachai');

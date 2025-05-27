@@ -1,9 +1,10 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
 import CarouselButton from '../src/view/CarouselButton';
 
 
 it('CarouselButton', () => {
-   expect(render(<CarouselButton />).baseElement).toMatchSnapshot();
+  expect(render(<CarouselButton />).baseElement).toMatchSnapshot();
 
   // make sure there is a button
   const btn = screen.queryByRole('button');
