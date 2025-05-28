@@ -13,12 +13,12 @@ function Section(props) {
 
   const header = (
     <div className="flex justify-center mb-5">
-      { title !== 'Intro' ? <h3 className="text-center text-2xl py-5 bg bg-well-read-300 rounded-3xl w-1/2">{title}</h3> : null }
+      { title !== 'Intro' ? <h3 className="text-center text-4xl py-5 bg text-blue-100 rounded-3xl w-1/2">{title}</h3> : null }
     </div>
   );
 
   return (
-    <section className="min-h-12 border-2 border-black border-solid flex flex-col rounded-3xl mx-32 my-5 bg-neutral-50">
+    <section className="min-h-12 flex flex-col mx-32 my-5">
       {title !== 'Intro' ? header : null}
       { fill }
     </section>

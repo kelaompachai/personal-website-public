@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+* {
+  margin: 0
+}
+
 @theme {
   --color-well-read-50: oklch(97.19% 0.01 17.34);
   --color-well-read-100: oklch(93.96% 0.02 17.59);
@@ -18,6 +22,7 @@
   --background-image-floorplan: url(/assets/floor-plan-pic.jpg);
   --background-image-passtheplate: url(/assets/pass-the-plate-pic.jpg);
   --background-image-techtalk: url(/assets/tech-talk.jpg);
+  --background-image-moraine: url(../assets/moraine-with-abe.png);
 
   --animate-blurin: blurin 1s ease-in-out 1;
 
