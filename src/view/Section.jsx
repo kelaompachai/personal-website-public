@@ -11,11 +11,15 @@ function Section(props) {
       ? <Projects /> : title === 'Talks & Publications'
         ? <Talks /> : <Recs />;
 
+  const header = (
+    <div className="flex justify-center mb-5">
+      { title !== 'Intro' ? <h3 className="text-center text-2xl py-5 bg bg-well-read-300 rounded-3xl w-1/2">{title}</h3> : null }
+    </div>
+  );
+
   return (
-    <section className="min-h-12 border-2 border-black border-solid flex flex-col rounded-3xl mx-32 my-5">
-      <div className="flex justify-center mb-5">
-        { title !== 'Intro' ? <h3 className="text-center text-2xl py-5 bg bg-well-read-400 rounded-3xl w-1/2">{title}</h3> : null }
-      </div>
+    <section className="min-h-12 border-2 border-black border-solid flex flex-col rounded-3xl mx-32 my-5 bg-neutral-50">
+      {title !== 'Intro' ? header : null}
       { fill }
     </section>
   );
